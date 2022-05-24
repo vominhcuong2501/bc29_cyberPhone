@@ -1,0 +1,20 @@
+#carousel {
+    .btn-more-info {
+        @include styleText($fs-1, $color-blue-2, $fw-2);
+        @include styleButton($color-white-1, $pd-3, $pd-4, $bd-1 solid $color-blue-2, $bd-2, $ls-2);
+        
+        transition: all 0.5s;
+        &:hover {
+            @include styleButtonHover($color-blue-2, $color-white-1, $bd-1 solid $color-blue-2);
+
+        }
+    }
+    .btn-shop {
+        @include styleButton($color-blue-4, $pd-3, $pd-4, $bd-1 solid $color-blue-4, $bd-2, $ls-2);
+        @include styleText($fs-1, $color-white-1, $fw-2);
+        transition: all 0.5s;
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+}

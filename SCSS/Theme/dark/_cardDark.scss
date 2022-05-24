@@ -1,0 +1,35 @@
+.darkMode {
+    #product {
+      h1 {
+        color: $color-blue-2;
+      }
+      .product-item {
+        .card {
+          box-shadow: none;
+          background-color: $color-dark-3;
+  
+          img {
+            box-shadow: none;
+          }
+          .card-body {
+            .card-text,
+            .card-title,
+            a {
+              color: $color-blue-2;
+            }
+            a {
+              box-shadow: none;
+              border: 1px solid $color-blue-2;
+              background-color: $color-dark-3;
+              &:hover {
+                color: $color-white-1;
+                background-color: $color-blue-2;
+                box-shadow: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

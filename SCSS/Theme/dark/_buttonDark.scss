@@ -1,0 +1,11 @@
+.darkMode {
+    #carousel {
+        .btn-more-info {
+            @include styleButton($color-dark-2, $pd-3, $pd-4, $bd-1 solid $color-blue-2, $bd-2, $ls-2);
+            &:hover {
+                @include styleButtonHover($color-blue-2, $color-white-1, $bd-1 solid $color-blue-2);
+    
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+#carousel {
+    padding-top: 50px;
+    background-image: url(./../../images/product-header-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 150px 0;
+    h1 {
+        @include styleText($fs-4, $color-blue-2, $fw-3);
+    }
+    h3 {
+        @include styleText($fs-5, $color-dark-2, $fw-2);
+        margin-bottom: $mg-2;
+    }
+    p {
+        @include styleText($fs-1, $color-dark-1, $fw-1);
+        margin-bottom: $mg-2;
+        letter-spacing: $ls-2;
+    }
+}

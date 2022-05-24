@@ -1,0 +1,10 @@
+html,
+body {
+    &.darkMode{
+        background-color: $color-dark-2;
+    }
+   
+}
+.darkMode {  
+    background-color: $color-dark-2;
+}

@@ -1,0 +1,26 @@
+.footerPhone {
+    background-color: $color-blue-2;
+    padding-bottom: $pd-7;
+    color: $color-white-3;
+    img {
+        margin-bottom: $mg-4;
+    }
+    .nav-item {
+        .nav-link {
+            @include styleText($fs-1, $fw-2, $color-white-1);
+            &:hover {
+                opacity: 0.75;
+            }
+        }
+    }
+    a {
+        color: white !important;
+    }
+    
+    .footer__dark {
+        display: none;
+    }
+    .footer__light {
+        display: block;
+    }
+}

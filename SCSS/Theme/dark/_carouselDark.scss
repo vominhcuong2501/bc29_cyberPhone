@@ -1,0 +1,11 @@
+.darkMode {
+    #carousel {
+        background-image: url(./../../../images/product-header-bg-dark.jpg);
+        h3 {
+            color: $color-blue-2
+        }
+        p {
+            color: $color-white-1;
+        }
+    }
+}

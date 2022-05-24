@@ -1,0 +1,35 @@
+.product-item {
+    margin: $mg-1 0;
+    box-sizing: border-box;
+  .card {
+      border: none;
+      box-shadow: 5px 5px 20px 1px $color-white-2;
+      background-color: #f5f9fe;
+      border-radius: 10px;
+      img {
+        box-shadow: 5px 5px 20px 1px $color-white-2;
+        margin: $mg-2 auto;
+        border-radius: 10px;
+      }
+      .card-body {
+        justify-content: space-between;
+        .card-title {
+          @include styleText($fs-3, $color-dark-2, $fw-3);
+        }
+        span {
+          i {
+            color: $color-yellow-1;
+          }
+        }
+        a {
+          box-shadow: 2px 2px 2px 1px $color-white-2;
+          @include styleText(13px, $color-blue-2, $fw-1);
+          &:hover {
+            border: 1px solid $color-white-2;
+            background-color: $color-white-1;
+            box-shadow: -2px -2px 2px 1px $color-white-2;
+          }
+        }
+      }
+    }
+}
